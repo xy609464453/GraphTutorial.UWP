@@ -76,7 +76,7 @@ namespace GraphTutorial
                     throw new NotImplementedException();
                     break;
                 case "calendar":
-                    throw new NotImplementedException();
+                    RootFrame.Navigate(typeof(CalendarPage));
                     break;
                 case "home":
                 default:
